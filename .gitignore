@@ -1,2 +1,9 @@
 venv
 .idea
+drfsite/blog/__pycache__
+drfsite/blog/migrations/__pycache__
+drfsite/__pycache__
+drfsite/users/__pycache__
+drfsite/users/migrations/__pycache__
+drfsite/db.sqlite3
+drfsite/media/profile_pics
