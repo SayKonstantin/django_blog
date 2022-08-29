@@ -1,0 +1,12 @@
+/venv/
+/.idea/
+blog/__pycache__
+blog/migrations/
+drfsite/__pycache__
+users/__pycache__
+users/migrations/
+db.sqlite3
+media/profile_pics
+docker-compose.yml
+Dockerfile
+site.conf

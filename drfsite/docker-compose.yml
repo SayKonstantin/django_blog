@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  django-project:
+    container_name: drf
+    build:
+      context: .
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: always
+    networks:
+      - botnet
+    env_file:
+      - ".env"
+    volumes:
+      - .:/src
